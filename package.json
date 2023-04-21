@@ -1,0 +1,13 @@
+{
+  "name": "insomnia-plugin-deepwell-security-hash",
+  "version": "0.0.1",
+  "private": true,
+  "insomnia": {
+    "name": "deepwell-security-hash",
+    "description": ""
+  },
+  "main": "main.js",
+  "dependencies": {
+    "md5": "^2.3.0"
+  }
+}
