@@ -16,7 +16,7 @@ const halfApiKeyGenerator = (apiKey) => {
 
 module.exports.templateTags = [
     {
-        name: 'controlport_api_authentication',
+        name: 'controlport-api-authentication',
         displayName: 'ControlPort API authentication',
         description: 'Either signs a Bearer token in the Authorization header or injects our half_api_key authentication payload into the request body.',
         args: [
