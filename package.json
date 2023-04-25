@@ -1,12 +1,17 @@
 {
   "name": "insomnia-plugin-deepwell-security-hash",
   "version": "0.0.1",
-  "private": true,
+  "main": "main.js",
   "insomnia": {
     "name": "deepwell-security-hash",
-    "description": ""
+    "displayName": "ControlPort API authentication",
+    "description": "Either signs a Bearer token in the Authorization header or injects our half_api_key authentication payload into the request body.",
+    "publisher": {
+      "name": "James and James Fulfilment",
+      "icon": "https://media.licdn.com/dms/image/C4D0BAQH1dxwbWERtxg/company-logo_200_200/0/1602589203040?e=2147483647&v=beta&t=bElfiF1nCleY5_apUCheGz8lXmNeV4UjUSkRjwYFiWo"
+    },
+    "unlisted": false
   },
-  "main": "main.js",
   "dependencies": {
     "md5": "^2.3.0"
   }
