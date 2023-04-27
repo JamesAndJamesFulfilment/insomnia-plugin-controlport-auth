@@ -6,6 +6,9 @@
     "name": "deepwell-security-hash",
     "displayName": "ControlPort API authentication",
     "description": "Either signs a Bearer token in the Authorization header or injects our half_api_key authentication payload into the request body.",
+    "images": {
+      "icon": "logo.jpg"
+    },
     "publisher": {
       "name": "James and James Fulfilment",
       "icon": "https://media.licdn.com/dms/image/C4D0BAQH1dxwbWERtxg/company-logo_200_200/0/1602589203040?e=2147483647&v=beta&t=bElfiF1nCleY5_apUCheGz8lXmNeV4UjUSkRjwYFiWo"
